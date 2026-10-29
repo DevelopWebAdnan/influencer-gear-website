@@ -1,0 +1,21 @@
+.header {
+    border: 3px dashed saddlebrown;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-lists {
+    display: flex;
+    /* align-items: center; */
+}
+.nav-lists li {
+    list-style: none;
+    margin-right: 24px;
+    
+}
+.nav-lists li a {
+    color: black;
+    text-decoration: none;
+}
