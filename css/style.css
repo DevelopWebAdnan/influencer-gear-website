@@ -2,13 +2,24 @@
     border: 3px dashed saddlebrown;
 }
 .navbar {
+    border: 3px dashed blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px dashed goldenrod;
+     /* flex: 1 0 auto; */
+     /* flex-grow: 1; */
 }
 .nav-lists {
     display: flex;
-    /* align-items: center; */
+}
+.nav-lists div {
+    display: flex;
 }
 .nav-lists li {
     list-style: none;
@@ -19,3 +30,10 @@
     color: black;
     text-decoration: none;
 }
+.nav-hamburger-menu {
+    display: none;
+}
+/* .cart-nav-icon {
+    width: fit-content;
+    flex: 1 1 auto;
+} */

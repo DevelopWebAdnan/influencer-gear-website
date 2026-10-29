@@ -1,5 +1,19 @@
 @media screen and (max-width: 576px) {
-    .navbar {
-    flex-direction: row-reverse;
+    /* .navbar {} */
+    .navbar-content {
+    /* flex-direction: row-reverse; */
+     /* flex: 1 0 flex-start; */
+     flex-grow: initial;
 }
+.nav-lists div:nth-child(1) {
+    display: none;
+}
+.nav-hamburger-menu {
+    display: block;
+}
+/* .cart-nav-icon {
+    flex: 1 0 auto;
+    justify-self: right;
+    flex-grow: 1;
+} */
 }
