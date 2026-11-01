@@ -1,5 +1,15 @@
+/* responsive styles for tablet */
+@media screen and (max-width: 992px) {
+    .navbar {
+    flex-direction: column;
+}
+}
+
+/* responsive styles for mobile */
 @media screen and (max-width: 576px) {
-    /* .navbar {} */
+.navbar {
+    flex-direction: row;
+}
     .navbar-content {
     /* flex-direction: row-reverse; */
      /* flex: 1 0 flex-start; */

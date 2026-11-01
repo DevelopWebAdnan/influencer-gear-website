@@ -1,11 +1,60 @@
+/* shared styles */
+body {
+    color: rgba(58, 58, 58, 1);
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* header styles */
 .header {
     border: 3px dashed saddlebrown;
 }
+/* navbar styles start here */
 .navbar {
     border: 3px dashed blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.nav-hamburger-menu {
+    display: none;
+}
+.nav-title {
+    font-size: 1.5rem;
 }
 .navbar-content {
     display: flex;
@@ -23,17 +72,20 @@
 }
 .nav-lists li {
     list-style: none;
-    margin-right: 24px;
+    margin-right: 34px;
     
 }
 .nav-lists li a {
     color: black;
     text-decoration: none;
 }
-.nav-hamburger-menu {
-    display: none;
+/* .search-nav-link i {
+    width: 1.5rem;
+    height: 1.5rem;
 }
-/* .cart-nav-icon {
+.cart-nav-icon a i {
     width: fit-content;
     flex: 1 1 auto;
+    width: 2rem;
+    height: 2rem;
 } */
