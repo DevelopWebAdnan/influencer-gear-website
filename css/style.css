@@ -39,13 +39,23 @@ body {
   font-style: normal;
 }
 
+.button {
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 41px;
+    border: none;
+}
+
 /* header styles */
 .header {
     border: 3px dashed saddlebrown;
+    margin: 100px;
 }
 /* navbar styles start here */
 .navbar {
-    border: 3px dashed blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,14 +66,13 @@ body {
 .nav-title {
     font-size: 1.5rem;
 }
-.navbar-content {
+/* .navbar-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px dashed goldenrod;
-     /* flex: 1 0 auto; */
-     /* flex-grow: 1; */
-}
+     flex: 1 0 auto;flex-grow: 1;
+} */
 .nav-lists {
     display: flex;
 }
@@ -89,3 +98,34 @@ body {
     width: 2rem;
     height: 2rem;
 } */
+
+/* banner styles start here */
+.banner {
+    margin: 70px 0;
+}
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+.banner-text {
+     border: 3px dashed blue;
+}
+.banner-text button span {
+    margin-left: 8px;
+}
+.banner-title {
+    font-size: 3.25rem;
+    margin: 16px 0;
+}
+/* .banner-description {
+    font-weight: 600;
+} */
+.banner-image {
+    background-image: url('../images/Circle design.svg');
+    background-position: center;
+    border: 3px dashed darkcyan;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

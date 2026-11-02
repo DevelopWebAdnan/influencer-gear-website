@@ -10,11 +10,10 @@
 .navbar {
     flex-direction: row;
 }
-    .navbar-content {
-    /* flex-direction: row-reverse; */
-     /* flex: 1 0 flex-start; */
+    /* .navbar-content {
+    flex-direction: row-reverse; flex: 1 0 flex-start;
      flex-grow: initial;
-}
+} */
 .nav-lists div:nth-child(1) {
     display: none;
 }
@@ -26,4 +25,9 @@
     justify-self: right;
     flex-grow: 1;
 } */
+
+.banner-content {
+    /* gap: 100px; */
+    flex-direction: column;
+}
 }
