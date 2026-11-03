@@ -62,6 +62,7 @@ body {
     font-size: 1rem;
     border-radius: 41px;
     border: none;
+    font-weight: 700;
 }
 
 /* header styles */
@@ -168,7 +169,7 @@ margin: 70px 125px 100px;
 
 /* popular section styles */
 .popular {
-    margin: 100px 140px;
+    margin: 100px;
     border: 4px dashed saddlebrown;
 }
 .popular-collection {
@@ -210,8 +211,8 @@ margin: 70px 125px 100px;
     justify-content: center; */
 }
 .popular-collection .cards-container .card figure {
-    width: 270px;
-    height: 256px;
+    /* width: 250px;
+    height: 256px; */
     margin: 0;
 }
 .popular-collection .cards-container .card figure img {
@@ -226,18 +227,76 @@ margin: 70px 125px 100px;
 }
 .popular-collection .cards-container .card .price {
     font-size: 1.5rem;
-    margin: 0;
+    margin: 6px 0;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
 }
 .popular-collection .cards-container .card .rating .stars {
-    color: orange;
+    color: rgba(251, 130, 0, 1);
     margin-right: 13px;
 }
 .popular-collection .cards-container .card .rating span {
     font-weight: 700;
     font-size: 0.875rem;
+    color: rgba(94, 99, 102, 1);
 }
 .features {
     margin: 0;
     font-weight: 700;
     color: rgba(120, 120, 133, 1);
+    line-height: 143%;
+    letter-spacing: 1.8%;
+}
+.features p {
+    margin: 0;
+}
+
+/* featured-products styles */
+.featured-products {
+    margin: 100px;
+}
+.featured-products-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+.featured-products-content .image-content img {
+    border-radius: 7px;
+}
+.featured-products-content .text-content .title {
+    margin: 16px 0;
+    font-size: 2.375rem;
+    line-height: 60px;
+}
+.featured-products-content .text-content .description {
+    font-weight: 700;
+    color: rgba(108, 108, 108, 1);
+    line-height: 28px;
+}
+.featured-products-content .text-content .button {
+    border-radius: 0;
+}
+.featured-products-content .text-content .button span {
+    margin-left: 8px;
+}
+
+/* footer styles */
+.footer {
+background-color: black;
+}
+.footer-content {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 50px 0;
+}
+.footer-content .title {
+    font-size: 1.5rem;
+}
+.footer-content .description {
+    font-size: 0.875rem;
+    line-height: 24px;
+}
+.footer-icons span {
+    margin-left: 16px;
 }
