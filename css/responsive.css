@@ -1,6 +1,6 @@
 /* responsive styles for tablet */
 @media screen and (max-width: 992px) {
-      .header {
+      .header, .popular, .featured-products {
     margin: 60px;
 }
     .navbar {
@@ -16,7 +16,7 @@
 .banner-title {
     font-size: 2.5rem;
 }
-.banner-content {
+.banner-content, .featured-products-content {
     gap: 50px;
     flex-direction: column-reverse;
 }
@@ -34,9 +34,6 @@ margin: 60px 120px 50px;
     justify-items: center;
 }
 
-.popular {
-    margin: 75px;
-}
 .popular-collection .cards-container {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -51,10 +48,6 @@ margin: 60px 120px 50px;
 .navbar {
     flex-direction: row;
 }
-    /* .navbar-content {
-    flex-direction: row-reverse; flex: 1 0 flex-start;
-     flex-grow: initial;
-} */
  .nav-title {
     font-size: 1rem;
 }
@@ -64,11 +57,6 @@ margin: 60px 120px 50px;
 .nav-hamburger-menu {
     display: block;
 }
-/* .cart-nav-icon {
-    flex: 1 0 auto;
-    justify-self: right;
-    flex-grow: 1;
-} */
 
 .banner {
     margin: 20px 0;
@@ -82,7 +70,6 @@ margin: 60px 120px 50px;
 }
 .banner-content {
     gap: 14px;
-    /* flex-direction: column-reverse; */
 }
 .button {
     font-weight:500;
@@ -96,7 +83,7 @@ margin: 50px 42px;
 }
 
 .popular {
-    margin: 50px;
+    margin: 50px 15px;
 }
 .popular-collection > .title {
     font-size: 1rem;
@@ -113,5 +100,18 @@ margin: 50px 42px;
     color: rgba(120, 120, 133, 1);
     font-size: 0.875rem;
     margin-top: 5px;
+}
+
+.featured-products {
+    margin: 50px 15px;
+}
+.featured-products-content {
+    gap: 30px;
+}
+.featured-products-content .text-content {
+    text-align: center;
+}
+.featured-products-content .text-content .title {
+    font-size: 1.5rem;
 }
 }

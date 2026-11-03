@@ -9,12 +9,6 @@ body {
   font-style: normal;
 }
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -24,18 +18,6 @@ body {
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -62,7 +44,6 @@ body {
     font-size: 1rem;
     border-radius: 41px;
     border: none;
-    font-weight: 700;
 }
 
 /* header styles */
@@ -81,15 +62,9 @@ body {
 .nav-title {
     font-size: 1.5rem;
 }
-/* .navbar-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px dashed goldenrod;
-     flex: 1 0 auto;flex-grow: 1;
-} */
 .nav-lists {
     display: flex;
+    padding-left: 5px;
 }
 .nav-lists div {
     display: flex;
@@ -97,22 +72,12 @@ body {
 .nav-lists li {
     list-style: none;
     margin-right: 34px;
-    
+
 }
 .nav-lists li a {
     color: black;
     text-decoration: none;
 }
-/* .search-nav-link i {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-.cart-nav-icon a i {
-    width: fit-content;
-    flex: 1 1 auto;
-    width: 2rem;
-    height: 2rem;
-} */
 
 /* banner styles start here */
 .banner {
@@ -124,9 +89,6 @@ body {
     gap: 100px;
     align-items: center;
 }
-/* .banner-text {
-     border: 3px dashed blue;
-} */
 .banner-text button span {
     margin-left: 8px;
 }
@@ -134,9 +96,6 @@ body {
     font-size: 3.25rem;
     margin: 16px 0;
 }
-/* .banner-description {
-    font-weight: 600;
-} */
 .banner-image {
     background-image: url('../images/Circle design.svg');
     background-position: center;
@@ -161,7 +120,6 @@ margin: 70px 125px 100px;
     align-items: center;
     grid-template-columns: repeat(7, 1fr);
     gap: 60px;
-     /* justify-items: center; */
 }
 .sponsors-container img {
     width: 100%;
@@ -170,10 +128,6 @@ margin: 70px 125px 100px;
 /* popular section styles */
 .popular {
     margin: 100px;
-    border: 4px dashed saddlebrown;
-}
-.popular-collection {
-    border: 3px dashed darkcyan;
 }
 .popular-collection .see-more {
     margin-top: 50px;
@@ -182,7 +136,6 @@ margin: 70px 125px 100px;
 .popular-collection .see-more a {
     text-decoration: none;
     color: rgba(224, 44, 109, 0.87);
-    font-weight: 700;
 }
 .popular-collection .see-more span {
     margin-left: 8px;
@@ -196,8 +149,6 @@ margin: 70px 125px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    /* justify-content: center; */
-    /* align-items: center; */
     justify-items: center;
 }
 .popular-collection .cards-container .card {
@@ -205,14 +156,8 @@ margin: 70px 125px 100px;
     border-radius: 5px;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
     padding: 15px;
-    /* width: 330px; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
 .popular-collection .cards-container .card figure {
-    /* width: 250px;
-    height: 256px; */
     margin: 0;
 }
 .popular-collection .cards-container .card figure img {
@@ -261,11 +206,16 @@ margin: 70px 125px 100px;
     align-items: center;
     gap: 90px;
 }
+.featured-products-content .image-content {
+    width: 100%;
+}
 .featured-products-content .image-content img {
     border-radius: 7px;
+    width: 100%;
+    object-fit: contain;
 }
 .featured-products-content .text-content .title {
-    margin: 16px 0;
+    margin: 0;
     font-size: 2.375rem;
     line-height: 60px;
 }
@@ -296,6 +246,7 @@ background-color: black;
 .footer-content .description {
     font-size: 0.875rem;
     line-height: 24px;
+    color: rgba(217, 219, 225, 1);
 }
 .footer-icons span {
     margin-left: 16px;
